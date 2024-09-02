@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="static/favicon.png" type="image/png">
+    <title>Sage Scholars</title>
+</head>
+<body>
+    <div class="img-container">
+        <img src="static/image.jpg">
+        <p class="credits">
+            Photo by Ren Ran on Unsplash
+        </p>
+    </div>
+    <div class="form-container">
+        <h1>Sage Scholars</h1>
+        <h3>Please note that this is not a real form.</h3>
+        <p>
+            Sage Scholars is dedicated to helping <em>you</em> get into the school of your dreams. 
+            Our advisors attend prestigious and selective schools including Stanford and MIT, 
+            and we're here to help you achieve the same! Please enter your information and we'll
+            match you with one of our Sage Scholars!
+        </p>
+        <form action="" method="">
+            <fieldset>
+                <legend>
+                    Contact Details
+                </legend>
+                
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" id="firstName" placeholder="John" required>
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Doe" required>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="johndoe@gmail.com" required>
+
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="text" name="phoneNumber" id="phoneNumber" pattern="^(\d){3}-(\d){3}-(\d){4}$" placeholder="123-456-7890" required>
+
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required>
+
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" name="confirmPassword" id="confirmPassword" required>                
+            </fieldset>
+
+            <button type="submit">
+                Submit Information
+            </button>
+        </form>
+    </div>
+</body>
+</html>
